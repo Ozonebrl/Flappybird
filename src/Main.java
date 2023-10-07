@@ -86,4 +86,5 @@ public class Main extends JFrame implements KeyListener, ActionListener {
         Main game = new Main();
         game.setVisible(true);
     }
+
 }
