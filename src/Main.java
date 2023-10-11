@@ -29,7 +29,7 @@ public class Main extends JFrame implements KeyListener, ActionListener {
         g.fillRect(0, 0, 800, 600);
         g.setColor(Color.orange);
         g.fillRect(pipeX, pipeY, 80, 300);
-        g.fillRect(pipeX, pipeY + 400 + pipeGap, 80, 300);
+        g.fillRect(pipeX, pipeY + 400 + pipeGap, 90, 350);
         g.setColor(Color.green);
         g.fillRect(150, birdY, 50, 50);
         g.setColor(Color.white);
