@@ -53,7 +53,7 @@ public class Main extends JFrame implements KeyListener, ActionListener {
 
             if (birdY > 550 || birdY < 0) {
                 gameover = true;
-            } else if (pipeX < 200 && pipeX > 100 && (birdY < pipeY + 300 || birdY > pipeY + 400 + pipeGap)) {
+            } else if (pipeX < 200 && pipeX > 100 && (birdY < pipeY + 400 || birdY > pipeY + 450 + pipeGap)) {
                 gameover = true;
             } else {
                 score++;
