@@ -72,7 +72,7 @@ public class Main extends JFrame implements KeyListener, ActionListener {
                 // Reset the game if space bar is pressed after game over
                 birdY = 300;
                 velocity = 0;
-                pipeX = 800;
+                pipeX = 850;
                 pipeY = 0;
                 score = 0;
                 gameover = false;
